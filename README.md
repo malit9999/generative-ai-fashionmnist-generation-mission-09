@@ -23,21 +23,21 @@ FashionMNIST 데이터셋의 의류 카테고리를 조건으로 사용해 이�
 - Jupyter Notebook
 
 ## 실행 방법
-`ash
+```bash
 pip install -r requirements.txt
 jupyter notebook notebooks/mission09.ipynb
-`
+```
 
 > 데이터셋 또는 사전학습 모델이 외부에서 제공되는 경우, 실행 전에 노트북 또는 코드의 데이터 로드 설정을 확인해야 합니다.
 
 ## 폴더 구조
-`	ext
+```text
 notebooks/
   mission09.ipynb
 README.md
 requirements.txt
 .gitignore
-`
+```
 
 ## 학습 내용
 - 생성 모델은 정답 레이블을 직접 예측하는 모델과 다른 품질 평가가 필요하다는 점
